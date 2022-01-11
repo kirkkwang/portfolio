@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ee628108.css",
+    "main.js": "/portfolio/static/js/main.9659e643.js",
+    "static/js/787.69d52779.chunk.js": "/portfolio/static/js/787.69d52779.chunk.js",
+    "static/media/profile_pic.png": "/portfolio/static/media/profile_pic.02f99132c6ff5e042101.png",
+    "static/media/tech_postgresql.svg": "/portfolio/static/media/tech_postgresql.5d012dcfc6bc478272ada6607a1a1626.svg",
+    "static/media/tech_react.svg": "/portfolio/static/media/tech_react.b92ff69b50f7b6868f7b43273b3adc6b.svg",
+    "static/media/tech_ruby.svg": "/portfolio/static/media/tech_ruby.094d0c0251162d532f2a1aa17ac6f6c9.svg",
+    "static/media/tech_rails.svg": "/portfolio/static/media/tech_rails.9a6ca85ddcf31a791fa8f15bda2e9117.svg",
+    "static/media/instagram.svg": "/portfolio/static/media/instagram.b94c5119d094f0644711cf880ae69cfe.svg",
+    "static/media/tech_python.svg": "/portfolio/static/media/tech_python.d5a24bb33b13469848eb351b71a59616.svg",
+    "static/media/github.svg": "/portfolio/static/media/github.3f9bcd8058ba6cf4f0f377b4be322f50.svg",
+    "static/media/project_github.svg": "/portfolio/static/media/project_github.5c3c3db730ce7f71a6eb22ad96d3d917.svg",
+    "static/media/project_link.svg": "/portfolio/static/media/project_link.b181ca4750384a50cca8ebccde772364.svg",
+    "static/media/tech_javascript.svg": "/portfolio/static/media/tech_javascript.0534a7385dccc16c433a40ae74fb479d.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.d4723b6433a08aec9d442799886418f6.svg",
+    "static/media/navbar_close.svg": "/portfolio/static/media/navbar_close.a2c4846bb9fb567c92c496e2ef600c0d.svg",
+    "static/media/navbar_hamburger.svg": "/portfolio/static/media/navbar_hamburger.74f2a072a0c5388f3d9c99ce954b1c56.svg",
+    "main.ee628108.css.map": "/portfolio/static/css/main.ee628108.css.map",
+    "main.9659e643.js.map": "/portfolio/static/js/main.9659e643.js.map",
+    "787.69d52779.chunk.js.map": "/portfolio/static/js/787.69d52779.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee628108.css",
+    "static/js/main.9659e643.js"
+  ]
+}
