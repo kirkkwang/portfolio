@@ -1,0 +1,135 @@
+.NavBar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 20px 0;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  z-index: 9999;
+}
+
+.NavBar__Logo__Wrapper {
+  position: absolute;
+  top: 16px;
+  left: 20px;
+}
+
+.NavBar__Logo__Wrapper span {
+  font-family: Roboto;
+}
+
+.NavBar a {
+  text-decoration: none;
+  font-family: Roboto;
+}
+
+.NavBar__Links__Wrapper {
+  display: none;
+}
+
+.NavBar__Menu__Vertical {
+  list-style-type: none;
+  margin: 215px -51px 0 0;
+  width: 225px;
+  height: 275px;
+  padding: 45px 15px 0 0;
+  background-color: transparent;
+  border-radius: 0 0 0 15px;
+}
+
+.NavBar__Menu__Vertical a {
+  background-color: transparent;
+  justify-content: right;
+}
+
+.NavBar__TextMenu {
+  background-color: transparent;
+}
+
+.NavBar__TextMenu a {
+  display: flex;
+  padding-right: 10px;
+  font-family: Roboto;
+  font-size: 30px;
+  line-height: 44px;
+}
+
+.NavBar__Logo__KIR {
+  display: none;
+}
+.NavBar__Logo__ANG {
+  display: none;
+}
+
+.NavBar__Close {
+  padding-right: 7px;
+  background-color: transparent;
+}
+
+.NavBar__Hamburger {
+  padding-right: 2px;
+  background-color: transparent;
+}
+
+.NavBar__Logo__K1 {
+  color: var(--neon-green);
+}
+.NavBar__Logo__K2 {
+  color: rgba(255, 255, 255, 1);
+}
+
+@media (min-width: 414px) {
+  .NavBar__Logo__KIR {
+    display: inline;
+    color: var(--neon-green);
+  }
+  .NavBar__Logo__ANG {
+    display: inline;
+  }
+  .NavBar {
+    padding: 0 30px 0;
+  }
+  .NavBar__Logo__Wrapper {
+    left: 30px;
+  }
+  .NavBar__Menu__Vertical {
+    margin: 215px -61px 0 0;
+  }
+}
+
+@media (min-width: 650px) {
+  .NavBar__Hamburger,
+  .NavBar__Close {
+    display: none;
+  }
+
+  .NavBar__Links__Wrapper {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    align-items: center;
+  }
+
+  .NavBar__Links__Wrapper a:hover {
+    color: var(--neon-green);
+  }
+
+  /* turns Vertical into Links Wrapper essentially */
+  .NavBar__Menu__Vertical {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    margin: 0 430px;
+    width: 0;
+    height: 0;
+    padding: 0;
+    align-items: center;
+    font-family: Roboto;
+    background-color: transparent;
+  }
+
+  .NavBar__Menu__Vertical a {
+    font-size: 16px;
+  }
+}

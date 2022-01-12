@@ -1,0 +1,24 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.Footer__Social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.Footer__Social img {
+  margin-top: 10px;
+  width: 50px;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 414px) {
+  .Footer__Social {
+    display: none;
+  }
+}

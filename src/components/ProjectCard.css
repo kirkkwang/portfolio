@@ -1,0 +1,85 @@
+.ProjectCard__Cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 20px 65px;
+  padding: 0 0 0 clamp(0px, 2.2vw, 50px);
+}
+
+.ProjectCard {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 460px;
+  background-color: var(--navy-blue);
+  border-radius: 20px;
+  box-shadow: 16px 16px 0px -10px var(--neon-green);
+  margin: 36px 0 0 0;
+}
+
+.ProjectCard h3,
+.ProjectCard a,
+.ProjectCard p {
+  background-color: transparent;
+  text-align: center;
+  margin: 0.25em 0 0 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.ProjectCard a {
+  height: 280px;
+  margin: 0 0 0.25em;
+}
+
+.ProjectCard__Title {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 19px;
+  color: var(--white);
+}
+
+.ProjectCard p {
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+.ProjectCard div {
+  background-color: transparent;
+  margin-top: auto;
+}
+
+.ProjectCard__Img {
+  width: 280px;
+  height: 280px;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.ProjectCard__Links {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.ProjectCard__Links a {
+  background-color: transparent;
+  height: auto;
+}
+
+.ProjectCard__Links a img {
+  margin: 0 10px 0 10px;
+}
+
+@media (min-width: 1600px) {
+  .ProjectCard__Cards {
+    margin-top: 0px;
+    transform: scale(1);
+  }
+}

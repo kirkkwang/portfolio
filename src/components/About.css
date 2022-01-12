@@ -1,0 +1,17 @@
+.About__ProfilePic {
+  align-content: center;
+  width: 225px;
+  height: 225px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 80%;
+  box-shadow: 16px 16px 0px -10px var(--neon-green);
+  border-radius: 20px;
+  margin: 30px auto 0 auto;
+}
+
+@media (min-width: 414px) {
+  .About__ProfilePic {
+    margin-right: 0;
+  }
+}

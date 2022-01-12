@@ -1,0 +1,12 @@
+.Technologies__Logos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 25px;
+}
+
+.Technologies__Logos img {
+  width: 60px;
+}
