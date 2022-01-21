@@ -73,8 +73,12 @@
   height: auto;
 }
 
-.ProjectCard__Links a img {
+.ProjectCard__Links a svg {
   margin: 0 10px 0 10px;
+  background-color: transparent;
+  fill: var(--neon-green);
+  width: 25px;
+  height: 25px;
 }
 
 @media (min-width: 1600px) {

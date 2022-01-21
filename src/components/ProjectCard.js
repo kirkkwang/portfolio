@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import linkIcon from "./assets/project_link.svg";
-import githubIcon from "./assets/project_github.svg";
+import { projectLinkIcon } from "./projectCardLinks";
+import { projectGithubIcon } from "./projectCardLinks";
 import "./ProjectCard.css";
 
 export default class ProjectCard extends Component {
@@ -22,18 +22,29 @@ export default class ProjectCard extends Component {
         <p>{this.props.desc}</p>
         <div className="ProjectCard__Links">
           <a href={this.props.projectLink} target="_blank" rel="noreferrer">
-            <img
+            <svg
               className="ProjectCard__ProjectLinkIcon"
-              src={linkIcon}
               alt="New Window Project Link"
-            />
+              role="image"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d={projectLinkIcon[0]} />
+              <path d={projectLinkIcon[1]} />
+            </svg>
           </a>
           <a href={this.props.githubLink} target="_blank" rel="noreferrer">
-            <img
+            <svg
               className="ProjectCard__ProjectGithubIcon"
-              src={githubIcon}
-              alt="New Window Project Link"
-            />
+              alt="New Window GitHub Link"
+              role="image"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d={projectGithubIcon}
+              />
+            </svg>
           </a>
         </div>
       </div>

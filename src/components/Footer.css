@@ -8,13 +8,12 @@
 .Footer__Social {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
 }
 
-.Footer__Social img {
-  margin-top: 10px;
-  width: 50px;
-  margin-bottom: 16px;
+.Footer__Social a svg {
+  fill: var(--neon-green);
+  transform: scale(0.75);
 }
 
 @media (min-width: 414px) {
