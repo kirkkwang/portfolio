@@ -12,8 +12,21 @@ export default class Technologies extends Component {
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
         <div className="Technologies__Logos">
-          {techLogos.map((tech, idx) => {
-            return <img src={tech.src} alt={tech.alt} key={idx} />;
+          {techLogos.map((path, idx) => {
+            return (
+              <div>
+                <svg
+                  viewBox="0 0 72 72"
+                  xmlns="http://www.w3.org/2000/svg"
+                  key={idx}
+                  role="image"
+                >
+                  <path d={path.d} />
+                </svg>
+                <br />
+                {path.text}
+              </div>
+            );
           })}
         </div>
       </section>

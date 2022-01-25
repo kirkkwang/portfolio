@@ -6,6 +6,14 @@
   --gray: #b2b4c3;
 }
 
+:root {
+  --neon-green: #7bff6c;
+  --dark-blue: #080a1a;
+  --navy-blue: #121536;
+  --white: #cbcbcb;
+  --gray: #9d9d9d;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

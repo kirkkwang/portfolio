@@ -3,10 +3,12 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
   margin-top: 20px;
-  gap: 25px;
+  gap: 45px;
+  fill: var(--white);
 }
 
-.Technologies__Logos img {
+.Technologies__Logos svg {
   width: 60px;
 }

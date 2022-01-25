@@ -62,14 +62,19 @@
   display: none;
 }
 
-.NavBar__Close {
-  padding-right: 7px;
-  background-color: transparent;
+.NavBar__Close,
+.NavBar__Hamburger {
+  display: none;
 }
 
-.NavBar__Hamburger {
-  padding-right: 2px;
+.NavBar label svg path {
+  fill: var(--neon-green);
+}
+
+.NavBar label,
+.NavBar label svg {
   background-color: transparent;
+  padding-right: 2px;
 }
 
 .NavBar__Logo__K1 {
@@ -99,8 +104,8 @@
 }
 
 @media (min-width: 650px) {
-  .NavBar__Hamburger,
-  .NavBar__Close {
+  .NavBar label,
+  .NavBar label svg {
     display: none;
   }
 
