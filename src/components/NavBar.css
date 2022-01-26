@@ -34,7 +34,7 @@
   width: 225px;
   height: 275px;
   padding: 45px 15px 0 0;
-  background-color: transparent;
+  background-color: var(--navy-blue);
   border-radius: 0 0 0 15px;
 }
 
@@ -62,21 +62,26 @@
   display: none;
 }
 
-.NavBar__Close {
-  padding-right: 7px;
-  background-color: transparent;
+.NavBar__Close,
+.NavBar__Hamburger {
+  display: none;
 }
 
-.NavBar__Hamburger {
-  padding-right: 2px;
+.NavBar label svg path {
+  fill: var(--neon-green);
+}
+
+.NavBar label,
+.NavBar label svg {
   background-color: transparent;
+  padding-right: 2px;
 }
 
 .NavBar__Logo__K1 {
   color: var(--neon-green);
 }
 .NavBar__Logo__K2 {
-  color: rgba(255, 255, 255, 1);
+  color: var(--white);
 }
 
 @media (min-width: 414px) {
@@ -99,8 +104,8 @@
 }
 
 @media (min-width: 650px) {
-  .NavBar__Hamburger,
-  .NavBar__Close {
+  .NavBar label,
+  .NavBar label svg {
     display: none;
   }
 

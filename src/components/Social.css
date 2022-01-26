@@ -6,8 +6,17 @@
   background-color: transparent;
 }
 
+.Social__Github,
+.Social__Linkedin,
+.Social__Instagram {
+  fill: var(--neon-green);
+  width: 64px;
+  height: 64px;
+}
+
 img {
   background-color: transparent;
+  fill: var(--white);
 }
 
 @media (min-width: 414px) {

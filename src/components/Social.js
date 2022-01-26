@@ -9,11 +9,16 @@ export default class Social extends Component {
         {socialLinks.map((social, idx) => {
           return (
             <a href={social.href} target="_blank" rel="noreferrer" key={idx}>
-              <img
+              <svg
                 className={social.className}
-                src={social.src}
                 alt={social.alt}
-              />
+                role="image"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path fill-rule="evenodd" clip-rule="evenodd" d={social.d1} />
+                <path fill-rule="evenodd" clip-rule="evenodd" d={social.d2} />
+                <path d={social.d3} />
+              </svg>
             </a>
           );
         })}
