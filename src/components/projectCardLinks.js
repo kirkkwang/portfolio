@@ -1,3 +1,7 @@
+import lightBulbs from "./assets/lightbulbs.png";
+import ticTacToe from "./assets/tictactoe.png";
+import pigLatin from "./assets/piglatin.png";
+
 class ProjectCardLinks {
   constructor(title, desc, img, alt, projectLink, githubLink) {
     this.title = title;
@@ -9,13 +13,22 @@ class ProjectCardLinks {
   }
 }
 
-const lightBulb = new ProjectCardLinks(
+const lightBulbProject = new ProjectCardLinks(
   "Light Bulbs",
-  "Play with some super fun light bulbs, see if you can find the secret multicolor mode.",
-  "https://images.unsplash.com/photo-1507494924047-60b8ee826ca9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1073&q=80",
+  "Fidget with some super fun light bulbs and see if you can find the secret multicolor mode.",
+  lightBulbs,
   "Light Bulbs Project Screenshot",
   "https://kirkkwang.github.io/light-bulb-react/",
   "https://github.com/kirkkwang/light-bulb-react"
+);
+
+const ticTacToeProject = new ProjectCardLinks(
+  "Tic Tac Toe",
+  "Just a friendly turn base game of tic tac toe.  You can choose your own emoji and battle your friend!",
+  ticTacToe,
+  "Something Something Project Screenshot",
+  "https://kirkkwang.github.io/tic-tac-toe/",
+  "https://github.com/kirkkwang/tic-tac-toe"
 );
 
 const catTinder = new ProjectCardLinks(
@@ -36,20 +49,11 @@ const capstone = new ProjectCardLinks(
   "https://www.github.com"
 );
 
-const pigLatin = new ProjectCardLinks(
+const pigLatinProject = new ProjectCardLinks(
   "Pig Latin Translator",
   "Pretty fun little translator from english to Pig Latin.",
-  "https://i.guim.co.uk/img/media/7a0ccba31578833efe0de8db130e57015109d067/183_0_3840_2304/master/3840.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=3b95b4d4869e595a2cebff6be1c24eac",
+  pigLatin,
   "Capstone Project Screenshot",
-  "https://www.google.com",
-  "https://www.github.com"
-);
-
-const dummyProject1 = new ProjectCardLinks(
-  "Something Something Project",
-  "Filler stuff, don't mind pay me any attention and move along about your day.",
-  "https://images.unsplash.com/photo-1481349518771-20055b2a7b24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1239&q=80",
-  "Something Something Project Screenshot",
   "https://www.google.com",
   "https://www.github.com"
 );
@@ -64,11 +68,11 @@ const dummyProject2 = new ProjectCardLinks(
 );
 
 export const projectCardLinks = [
-  lightBulb,
+  lightBulbProject,
+  ticTacToeProject,
+  pigLatinProject,
   catTinder,
   capstone,
-  pigLatin,
-  dummyProject1,
   dummyProject2,
 ];
 
