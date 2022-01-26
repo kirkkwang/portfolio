@@ -1,16 +1,16 @@
-:root {
+/* :root {
   --neon-green: #adff00;
   --dark-blue: #000638;
   --navy-blue: #282d5a;
   --white: #ffffff;
   --gray: #b2b4c3;
-}
+} */
 
 :root {
-  --neon-green: #7bff6c;
-  --dark-blue: #080a1a;
-  --navy-blue: #121536;
-  --white: #cbcbcb;
+  --neon-green: #73ff00;
+  --dark-blue: #0c0d13;
+  --navy-blue: #00031f;
+  --white: #e6e6e6;
   --gray: #9d9d9d;
 }
 

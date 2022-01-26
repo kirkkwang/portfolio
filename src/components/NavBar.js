@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import { navBarLinks } from "./navBarLinks.js";
-import hamburger from "./assets/navbar_hamburger.svg";
-import close from "./assets/navbar_close.svg";
 import "./NavBar.css";
 
 export default class NavBar extends Component {

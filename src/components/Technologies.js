@@ -8,8 +8,8 @@ export default class Technologies extends Component {
       <section className="Technologies" id="Technologies">
         <h2>technologies</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Listed here are the technologies that I am most familiar with. I am
+          quick learner and definitely want to play with more.
         </p>
         <div className="Technologies__Logos">
           {techLogos.map((path, idx) => {
