@@ -6,10 +6,18 @@
   --gray: #b2b4c3;
 } */
 
+/* :root {
+  --neon-green: #73ff00;
+  --dark-blue: #14161f;
+  --navy-blue: #202236;
+  --white: #e6e6e6;
+  --gray: #9d9d9d;
+} */
+
 :root {
   --neon-green: #73ff00;
-  --dark-blue: #0c0d13;
-  --navy-blue: #00031f;
+  --dark-blue: #14161f;
+  --navy-blue: #202236;
   --white: #e6e6e6;
   --gray: #9d9d9d;
 }

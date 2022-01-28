@@ -51,11 +51,11 @@ const capstone = new ProjectCardLinks(
 
 const pigLatinProject = new ProjectCardLinks(
   "Pig Latin Translator",
-  "Pretty fun little translator from english to Pig Latin.",
+  "Fun little translator from English to Pig Latin, mainly worked on the logical portion.",
   pigLatin,
   "Capstone Project Screenshot",
-  "https://www.google.com",
-  "https://www.github.com"
+  "https://kirkkwang.github.io/pig-latin-translator/",
+  "https://github.com/kirkkwang/pig-latin-translator"
 );
 
 const dummyProject2 = new ProjectCardLinks(

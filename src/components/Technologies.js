@@ -8,7 +8,7 @@ export default class Technologies extends Component {
       <section className="Technologies" id="Technologies">
         <h2>technologies</h2>
         <p>
-          Listed here are the technologies that I am most familiar with. I am
+          Listed here are the technologies that I am most familiar with. I am a
           quick learner and definitely want to play with more.
         </p>
         <div className="Technologies__Logos">
