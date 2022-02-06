@@ -75,6 +75,10 @@
     grid-area: message;
   }
 
+  .ContactForm__Submit:active {
+    background-color: var(--white);
+  }
+
   .ContactForm div input,
   .ContactForm div textarea {
     width: 100%;

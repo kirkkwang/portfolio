@@ -7,7 +7,7 @@ export default class Contact extends Component {
     return (
       <section>
         <h2 id="Contact">contact</h2>
-        <p className="Contact__Blurb">Hey, wanna collaborate?</p>
+        <p className="Contact__Blurb">Contact me for any questions!</p>
         <ContactForm />
       </section>
     );
